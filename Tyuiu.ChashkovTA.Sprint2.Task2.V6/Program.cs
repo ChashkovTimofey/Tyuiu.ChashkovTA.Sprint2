@@ -33,7 +33,7 @@ namespace Tyuiu.ChashkovTA.Sprint2.Task2.V6
 
             DataService ds = new DataService();
 
-            var result = ds.CheckDotInShadedArea(3, 4);
+            var result = ds.CheckDotInShadedArea(3, 5);
             Console.WriteLine(result);
             Console.ReadKey();
         }
