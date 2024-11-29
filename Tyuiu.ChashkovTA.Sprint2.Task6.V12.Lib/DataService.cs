@@ -21,7 +21,7 @@ namespace Tyuiu.ChashkovTA.Sprint2.Task6.V12.Lib
                 prevDay = GetDaysInMonth(prevMonth, IsLeapYear(prevYear));
             }
 
-            return "";
+            return $"{prevDay}.{prevMonth}.{prevYear}";
         }
 
         // Функция для определения количества дней в месяце с помощью паттерн-матчинга
