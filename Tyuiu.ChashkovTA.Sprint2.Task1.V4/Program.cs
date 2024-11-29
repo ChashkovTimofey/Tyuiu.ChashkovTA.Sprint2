@@ -33,7 +33,7 @@ namespace Tyuiu.ChashkovTA.Sprint2.Task1.V4
 
             DataService ds = new DataService();
 
-            var result = ds.GetLogicOperations(10, 1, 2, 4);
+            var result = ds.GetLogicOperations(10, 1, 2, 5);
             Console.WriteLine(result);
             Console.ReadKey();
         }
